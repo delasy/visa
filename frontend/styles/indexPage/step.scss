@@ -1,0 +1,10 @@
+@import '../extends';
+
+.indexStep3VisaApplyingToBox {
+  @extend %clearButtonStyles;
+  width: 100%;
+  border: 1px solid #333;
+  line-height: 38px;
+  margin: 8px;
+  font-size: 12px;
+}

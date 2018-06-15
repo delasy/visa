@@ -1,0 +1,31 @@
+@import '../extends';
+
+.indexNavigationLinksWrapper {
+  text-align: center;
+  padding: 15px 0;
+  .indexNavigationLink {
+    padding: 2px 25px;
+    display: inline-block;
+    .indexNavigationLinkContent {
+      @extend %clearButtonStyles;
+      font-size: 12px;
+      cursor: not-allowed;
+      &.active {
+        text-decoration: underline;
+        cursor: default;
+      }
+      &.passed {
+        color: #2196F3;
+        cursor: pointer;
+        line-height: 1em;
+        span {
+          text-decoration: underline;
+        }
+        .indexNavigationLinkContentValue {
+          color: #9E9E9E;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

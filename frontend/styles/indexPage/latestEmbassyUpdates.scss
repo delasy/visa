@@ -1,0 +1,30 @@
+.indexStep1LatestEmbassyUpdatesWrapper {
+  margin-top: 80px;
+  .indexStep1LatestEmbassyUpdates {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .indexStep1LatestEmbassyUpdatesNew {
+    padding: 5px 0;
+    .indexStep1LatestEmbassyUpdatesNewTitle {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 0;
+      color: #333;
+    }
+    .indexStep1LatestEmbassyUpdatesNewDate {
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0;
+      color: #333;
+    }
+    .indexStep1LatestEmbassyUpdatesNewBody {
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0;
+      color: #333;
+      line-height: 1em;
+    }
+  }
+}

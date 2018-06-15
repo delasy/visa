@@ -1,0 +1,38 @@
+{
+  "name": "visa",
+  "version": "0.0.1",
+  "description": "Project for visa, developed in 2018.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
+  },
+  "repository": "github:delasy/visa",
+  "author": "Aaron Delasy <aaron@thelang.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-polyfill": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "css-loader": "*",
+    "node-sass": "*",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-0"
+    ]
+  }
+}

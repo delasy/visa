@@ -1,0 +1,86 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif
+}
+
+@import 'extends';
+@import 'indexPage/navigation';
+@import 'indexPage/step';
+@import 'indexPage/latestEmbassyUpdates';
+@import 'indexPage/stepAnnouncements';
+
+/* utils */
+.appSelect {
+  color: #000;
+  font-size: 12px;
+  border-radius: 0;
+  border: 1px solid #000;
+  min-width: 190px;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: 0 !important;
+  background: #FFF url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#000"><polygon points="0,0 100,0 50,50"/></svg>') no-repeat calc(100% - 10px) calc(50% + 2px);
+  background-size: 10px;
+}
+
+/* index page entities */
+.indexTopTitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.indexStepMainTitle {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.indexStep1ApplyForTitle {
+  color: #3F51B5;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+}
+
+.indexStep1SelectRow {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.indexStep1AfterSelectRow {
+  width: 400px;
+  margin: 40px auto 0;
+  padding: 0 0 20px;
+}
+
+.indexStep1ApplyForButton {
+  @extend %clearButtonStyles;
+  margin-left: 16px;
+}
+
+.indexStep1ApplyForButton.left {
+  margin-left: 0;
+}
+
+.indexStep1ApplyForButtonTitle {
+  text-align: left;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.indexStep1ApplyForButtonImageWrapper {
+  text-align: center;
+  border: 1px solid #111;
+}
+
+.indexStep1ApplyForButtonImage {
+  height: 40px;
+}
